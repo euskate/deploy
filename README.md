@@ -30,3 +30,14 @@ deploy
   - 서버 아이피로 접속 테스트
 - 접속 로그 확인 (리눅스에서 진행)
   - $ tail -f /var/apache2/access.log
+
+# 잘 안된다.
+  - 소스 코드상의 파일명, 설정값 등 오타가 없어야 함.
+  - git에 최종 소스 모드가 반영되어야 함
+  - 리눅스에서 기존의 흔적을 모두 제거
+    - 현재 위치 : /home/ubuntu
+    - 프로젝트 삭제 $ rm -r -f deploy
+    - 가상환경 삭제 $ ls -a
+      - $ rm -rf .virtualenvs/
+  - 로컬PC
+    - $ fab new_server
