@@ -41,3 +41,8 @@ deploy
       - $ rm -rf .virtualenvs/
   - 로컬PC
     - $ fab new_server
+
+# 이후 작업
+  - git 최신 반영
+  - 서버 업데이트
+  - $ git deploy
