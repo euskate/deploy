@@ -4,10 +4,10 @@ deploy
 # 세팅 절차
 - deploy = 저장소
 - git에 새로운 deploy 생성
-- https://github.com/아이디/deploy
+  - https://github.com/아이디/deploy
 - 로컬 PC에서 aws폴더를 vs code에 오픈
 - terminal 오픈
-- $ git clone https://github.com/아이디/deploy.git
+  - $ git clone https://github.com/아이디/deploy.git
 - cd deploy
 
 # 파일 세팅 (~/deploy)
