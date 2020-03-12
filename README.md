@@ -24,3 +24,9 @@ deploy
 - 운영체계 및 서버 세팅 및 배포, 업데이트 관리 등등을 자동화하는 모듈 -> fabric3
   -  pip3 install fabric3
 - git에 최종 소스 반영 
+- $ fab new_server
+  - 중간에 y, git로그인 등등이 나올 수 없다.
+- 브라우저 가동
+  - 서버 아이피로 접속 테스트
+- 접속 로그 확인 (리눅스에서 진행)
+  - $ tail -f /var/apache2/access.log
