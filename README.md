@@ -29,7 +29,11 @@ deploy
 - 브라우저 가동
   - 서버 아이피로 접속 테스트
 - 접속 로그 확인 (리눅스에서 진행)
-  - $ tail -f /var/apache2/access.log
+  - $ tail -f /var/log/apache2/access.log
+  - 빠져나가기 ctrl + c
+- 에러 로그 확인
+  - $ tail -f /var/log/apache2/error.log
+
 
 # 잘 안된다.
   - 소스 코드상의 파일명, 설정값 등 오타가 없어야 함.
@@ -46,3 +50,9 @@ deploy
   - git 최신 반영
   - 서버 업데이트
   - $ git deploy
+
+# 가상 호스트가 설정된 부분
+- deploy는 프로젝트명 (deploy.json)
+- /etc/apache2/sites-available/deploy.conf
+- cat /etc/apache2/sites-available/deploy.conf
+- 
